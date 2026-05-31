@@ -1,7 +1,7 @@
 # Option Pricing & Implied Volatility Surface — v1 (Baseline)
 
-> **Series:** This is Version 1 of a 4-part project building from a clean baseline to industry-grade derivatives tooling.  
-> **Goal of v1:** Solid fundamentals — real market data, correct Black-Scholes implementation, and a working IV solver.
+> *Series*:This is Version 1 of a 4-part project building from a clean baseline to industry-grade derivatives tooling.  
+> *Goal of v1:* Solid fundamentals — real market data, correct Black-Scholes implementation, and a working IV solver.
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Step | Description |
 |------|-------------|
-| **Data** | Pulls real SPY options chain (calls + puts) via `yfinance` |
+| *Data* | Pulls real SPY options chain (calls + puts) via `yfinance` |
 | **Pricing** | Implements Black-Scholes analytical formula for European options |
 | **IV Solver** | Computes Implied Volatility from market prices using bisection method |
 | **Visualisation** | Produces 4 charts: price curve, IV smile, 3-D surface, heatmap |
@@ -141,3 +141,4 @@ requests==2.31.0
 ```
 
 Python version: **3.10.10**
+
